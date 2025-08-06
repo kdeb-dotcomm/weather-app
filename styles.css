@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: #0f4fa9;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    background-color: #5c9df9;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+
+}
+
+#search {
+    margin-top: 40px;
+    width: 80%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+#search:focus {
+    outline: none;
+}
+#city-name {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.btn {
+    margin-top: 0;
+}
+button {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  
+  all: unset; 
+}
