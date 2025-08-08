@@ -86,11 +86,12 @@ button {
     background-color: white;
     color: #000000;
     border-radius: 15px;
-    position: absolute;
-    top: 65%;
-    left: 25%;
     display: flex;
     justify-content: center;
+    position: absolute;
+    top: 70%;
+    left: 17%;
+    
   }
     .weather-details p {
         margin: 0;
