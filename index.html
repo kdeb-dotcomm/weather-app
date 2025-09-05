@@ -15,7 +15,7 @@
         <input type="text" id="search" placeholder=" 🔍Search for a City">
         <div class="mini-container">
            <div>
-            <h2 id="city-name">San Francisco</h2>
+            <h2 id="city-name"></h2>
 
            </div> 
             <div class="btn">
@@ -24,26 +24,28 @@
             
         </div>
         <div class="weather-icon">
-            <i class="fas fa-sun"></i>
+            <div id="weather"></div>
+            <!-- <i class="fas fa-sun"></i> -->
             <div class="temp">
-                <h1 id="temperature">20°C</h1>  
+                <p id="desc"></p>
+                <h1 id="temperature"></h1>  
             </div>
           </div>
           <div>
             <div class="weather-details">
                 <div class="detail">
                     <h3>High/Low</h3>
-                    <p id="exemptional-p">25°C</p>
-                    <p id="temperature">16°C</p>
+                    <p id="exemptional-p"></p>
+                    <p id="temperature" class="prev"></p>
                 </div>
                 <div class="detail">
                     <h3>Wind</h3>
-                    <p id="exemptional-p">12</p>
-                    <p id="temperature">km/h</p>
+                    <p id="exemptional-p" class="exemptional-pp"></p>
+                    <p id="temperature" class="add"></p>
                 </div>
                 <div class="detail">
-                    <h3>High/Low</h3>
-                    <p id="exemptional-p">68%</p>
+                    <h3>Humidity</h3>
+                    <p id="exemptional-p" class="humidity"></p>
                 </div>
             </div>
           </div>
